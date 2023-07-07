@@ -1,0 +1,164 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+header {
+
+  width: 100%;
+  height: 100hv;
+  background: linear-gradient(#fafa6e, #c4ec74, #92dc7e, #64c987, #39b48e, #fafa6e);
+  background-size: 500% 500%;
+  background-position: 0 40%;
+  padding-left: 11%;
+  padding-right: 8%;
+  position: fixed;
+}
+
+header:hover {
+
+  animation: backcolor 20s linear infinite reverse;
+
+}
+
+nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 5px;
+}
+
+nav li {
+
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+nav li a {
+
+  text-decoration: none;
+  color:#020202;
+  font-size: 15px;
+
+}
+
+main{
+  padding-top: 150px;
+  padding-left: 125px;
+  background-color: #020202;
+  color: #bababa;
+}
+
+.side {
+
+  position: fixed;
+  /*background-color: green;*/
+  left: 0;
+  right: 0;
+  width: 125px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 350px 0;
+  background: linear-gradient(#fafa6e, #c4ec74, #92dc7e, #64c987, #39b48e, #fafa6e);
+  background-size: 100% 500%;
+  background-position: 0 40%;
+
+}
+
+.side:hover {
+
+  animation: backcolor 20s linear infinite reverse;
+
+}
+
+@keyframes backcolor {
+
+  0%{
+    background-position: 0 0%;
+  }
+
+  100%{
+    background-position: 0 400%;
+  }
+  
+}
+.side a {
+
+  text-decoration: none;
+  color: #020202;
+  transform: rotate(-90deg);
+  font-family: monospace;
+  font-size:x-large;
+  text-align: center;
+  width: max-content;
+
+}
+
+.pic {
+
+  background-image:url(worm.png);
+  background-size: 85%;
+  padding-bottom: 400px;
+  padding-left: 100px;
+  padding-top: 400px;
+  padding-right: 200;
+  background-repeat: no-repeat;
+}
+
+section {
+
+  padding: 175px;
+
+}
+
+.about {
+
+  background-color: #39b48e;
+  color: #020202;
+  background-image: url(about.jpeg);
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+
+}
+
+.anatomy {
+  
+  background-color:#92dc7e;
+  color: #020202;
+  background-image: url(wormana.jpeg);
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+
+}
+
+.types {
+
+  color:green;
+  background-image: url(types.jpg);
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+
+}
+
+.Importance {
+
+  color:#bababa;
+  background-image: url(import.webp);
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+  background-size: 99%;
+}
+
+
